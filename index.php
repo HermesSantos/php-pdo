@@ -28,13 +28,13 @@ tr:nth-child(even) {
     <p>POST</p>
     <form method="get">
       <div>
-        <label>Nome</label><br>
+        <label>Name</label><br>
         <input type="text" placeholder="FirstName" name="FirstName"><br>
-        <label>Sobrenome</label><br>
+        <label>Last Name</label><br>
         <input type="text" placeholder="LastName" name="LastName"><br>
-        <label>Estado</label><br>
+        <label>State</label><br>
         <input type="text" placeholder="Address" name="Address"><br>
-        <label>Cidade</label><br>
+        <label>City</label><br>
         <input type="text" placeholder="City" name="City"><br>
       </div>
       <div>
@@ -46,17 +46,17 @@ tr:nth-child(even) {
     <p>GET</p>
     <form method="get">
       <div>
-        <label>Ver os dados do banco</label><br>
+        <label>See all the data in the database</label><br>
         <input type="submit" value="GET">
       </div>
     </form>
     <div>
       <table >
         <tr>
-          <th>Nome</th>
-          <th>Sobrenome</th>
-          <th>Estado</th>
-          <th>Cidade</th>
+          <th>Name</th>
+          <th>Last Name</th>
+          <th>State</th>
+          <th>City</th>
         </tr>
         <tr>
           <?php

@@ -8,7 +8,7 @@ $city = $_GET['City'];
 $db = DataBase::Connect();
 $sql = "INSERT INTO persons (LastName, Firstname, Address, City) VALUES ('".$lastname."','".$firstname."','".$address."','".$city."')";
 
-// prepara a query
+// prepares the query
 $prepared = $db->prepare($sql);
-// executa a query
+// executes the query
 $prepared->execute();
